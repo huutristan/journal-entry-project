@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Journal Entry for Accounting" />
+    <meta
+      name="description"
+      content="Records of financial transactions in a company or business"
+    />
+    <link rel="stylesheet" href="top_section.css" />
+    <link rel="stylesheet" href="mid_section.css" />
+    <link rel="stylesheet" href="bot-section.css" />
+    <title>Journal Entry</title>
+  </head>
+  <body>
+    <div class="section top-section">
+      <h1>Journal Entry #01</h1>
+
+      <div class="journal-info">
+        <div>
+          <p class="je-date-title">Journal date</p>
+          <input type="date" class="je-date" />
+        </div>
+
+        <div>
+          <p class="je-number-title">Journal no.</p>
+          <input type="text" class="je-number" />
+        </div>
+      </div>
+    </div>
+
+    <div class="section mid-section">
+      <div class="table-container">
+        <table bgcolor="grey" id="main-table">
+          <tr>
+            <th align="right" class="header-no">#</th>
+            <th align="left" class="header">Account</th>
+            <th align="right" class="header">Debits</th>
+            <th align="right" class="header">Credits</th>
+            <th align="left" class="header">Description</th>
+          </tr>
+
+          <tr>
+            <td class="row-number-container">1</td>
+            <td class="account-container">
+              <input type="text" class="account-input">
+              </select>
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="description-container">
+              <input type="text" class="description-input" />
+            </td>
+          </tr>
+          <tr>
+            <td class="row-number-container">2</td>
+            <td class="account-container">
+              <input type="text" class="account-input">
+              </select>
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="description-container">
+              <input type="text" class="description-input" />
+            </td>
+          </tr>
+          <tr>
+            <td class="row-number-container">3</td>
+            <td class="account-container">
+              <input type="text" class="account-input">
+              </select>
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="description-container">
+              <input type="text" class="description-input" />
+            </td>
+          </tr>
+          <tr>
+            <td class="row-number-container">4</td>
+            <td class="account-container">
+              <input type="text" class="account-input">
+              </select>
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="description-container">
+              <input type="text" class="description-input" />
+            </td>
+          </tr>
+          <tr>
+            <td class="row-number-container">5</td>
+            <td class="account-container">
+              <input type="text" class="account-input">
+              </select>
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="cd-input-container">
+              <input type="number" class="cd-input" />
+            </td>
+            <td class="description-container">
+              <input type="text" class="description-input" />
+            </td>
+          </tr>
+        </table>
+      </div>
+      <button id="add-button">Add line</button>
+      <button id="clear-button">Clear all lines</button>
+    </div>
+
+    <div class="section bot-section">
+    </div>
+
+    <script src="add_clear_save.js"></script>
+  </body>
+</html>

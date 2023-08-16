@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+
+    padding: 20px;
+}
+
+.top-section {
+    background-color: lightgray;
+}
+
+h1 {
+    color: #444444;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.journal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+.je-date-title {
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.je-date {
+    width: auto;
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.je-number-title {
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.je-number {
+    width: 500px;
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

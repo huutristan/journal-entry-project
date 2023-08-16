@@ -1,0 +1,80 @@
+.mid-section {
+    background-color: white;
+    height: 380px;
+    overflow: auto;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 100%;
+    color: #444444;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
+}
+
+tr {
+    background-color: lightgray;
+}
+
+.row-number-container {
+    width: 20px;
+    text-align: right;
+}
+
+.account-container {
+    width: 300px;
+}
+
+.account-input {
+    display: flex;
+    width: 300px;
+}
+
+.cd-input-container {
+    width: 100px;
+}
+
+.cd-input {
+    display: flex;
+    width: 100px;
+}
+
+.description-container {
+    width: 500px;
+}
+
+.description-input {
+    display: flex;
+    width: 670px;
+}
+
+#add-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    padding-bottom: 4px;
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FBFBF9;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: gray;
+    border-width: 1.5px;
+}
+
+#clear-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    padding-bottom: 4px;
+    color: #444444;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FBFBF9;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: gray;
+    border-width: 1.5px;
+}
